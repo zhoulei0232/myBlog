@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 </head>
 <body>
     <header class="header">
@@ -24,10 +25,10 @@
     </header>
     <div class="content">
         <div class="content_left">
-            <div class="every_day">
+            <div class="every_day"  id="every_day">
                 <span>每日一句</span>
-                <p>2jjddjjdjsjdsssssssssssssssssssssssssssssswdwdw</p>
-                <p>--------ddddddddddddd</p>
+                <p  v-html="getContent"> </p>
+
             </div>
             <div class="article_list">
                 <div class="article">
@@ -101,6 +102,20 @@
             </div>
         </div>
     </div>
-    <footer></footer>
+    <footer class="footer">
+        <ul>
+            <li>dddf</li>
+            <li>dddf</li>
+            <li>dddf</li>
+            <li>dddf</li>
+            <li>dddf</li>
+            <li>dddf</li>
+            <li>dddf</li>
+            <li>dddf</li>
+            <li>dddf</li>
+        </ul>
+        <p>sajdsada</p>
+    </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
